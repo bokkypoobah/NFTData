@@ -2,7 +2,7 @@ var fs = require('fs');
 const util = require('util');
 const fetch = require('node-fetch');
 
-# Customise your NFT collection address here
+// Customise your NFT collection address here
 const NFTADDRESS = "0x42069abfe407c60cf4ae4112bedead391dba1cdb"; // CryptoDickButt
 
 const downloadFile = (async (url, path) => {
