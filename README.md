@@ -1,5 +1,11 @@
 # NFTData
-Extract NFT Data
+Extract NFT Data. CryptoDickButt Season 3, sorted by attribute count descending in this case.
+
+<kbd><img src="images/Sample_20241101.png" width="600"/></kbd>
+
+<br />
+
+<hr />
 
 Install node-fetch 2.6.6 (later versions require some module configuration):
 
