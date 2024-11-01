@@ -32,7 +32,7 @@ async function doit() {
     output = output + "<tr><td>" + (++row) + "</td><td>" + token.attributeCount + "</td><td><a href='https://blur.io/eth/asset/0x42069abfe407c60cf4ae4112bedead391dba1cdb/" + token.tokenId + "' target='_blank'>" + token.tokenId + "</a></td><td><img src='" + token.image + "' width='100' /></td><td>" + token.attributes.map(e => e.key.toString() + ':' + e.value.toString()).join(", ") + "</td></tr>";
   }
   output = output + "</table></body></html>";
-  console.log(output);
+  // console.log(output);
 
   const OUTPUTFILE = "output.html";
   (async () => {
