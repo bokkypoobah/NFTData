@@ -15,7 +15,7 @@ npm install node-fetch@2.6.6
 
 ```
 
-Execute [scripts/01_getIt.js](scripts/01_getIt.js) to generate [scripts/tokens.js](scripts/tokens.js):
+Execute [scripts/01_getIt.js](scripts/01_getIt.js) to retrieve all token data within a collection using the [Reservoir API](https://docs.reservoir.tools/reference/gettokensv7), with output saved in [scripts/tokens.js](scripts/tokens.js). Set the address of your desired ERC-721 or ERC-1155 NFT collection in the `NFTADDRESS` address:
 
 ```
 cd scripts
@@ -76,7 +76,7 @@ tokenId: 1837, name: CryptoDickbutt #1837, owner: 0xe267f356949c80ab2d98ac444d12
 Data written to file: tokens.js
 ```
 
-Execute [scripts/02_reportIt.js](scripts/02_reportIt.js) to generate [scripts/output.html](scripts/output.html). Customise as required
+Execute [scripts/02_reportIt.js](scripts/02_reportIt.js) to generate [scripts/output.html](scripts/output.html). View this file in your browser. Customise as required.
 
 ```
 $ node 02_reportIt.js
