@@ -1,5 +1,5 @@
 # NFTData
-Extract NFT Data. CryptoDickButt Season 3, sorted by attribute count descending in this case.
+Extract NFT Data. Listed CryptoDickButt Season 3, sorted by attribute count descending in this case.
 
 <kbd><img src="images/Sample_20241101.png" width="600"/></kbd>
 
