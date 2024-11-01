@@ -1,11 +1,15 @@
 # NFTData
 Extract NFT Data
 
+Install node-fetch 2.6.6 (later versions require some module configuration):
+
 ```
 cd scripts
 npm install node-fetch@2.6.6
 
 ```
+
+Execute [scripts/01_getIt.js](scripts/01_getIt.js) to generate [scripts/tokens.js](scripts/tokens.js):
 
 ```
 cd scripts
