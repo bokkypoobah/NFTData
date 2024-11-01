@@ -25,7 +25,7 @@ async function doit() {
 
   // console.log("top 50 by high attribute counts: " + JSON.stringify(tokens.slice(0, 50), null, 2));
   let row = 1;
-  let output = "<html><head><title>Report</title></head><body>";
+  let output = " <!DOCTYPE html><html><head><title>Report</title></head><body>";
   output = output + "<table><tr><th>#</th><th>Attribute Count</th><th>Token Id</th><th>Bid</th><th>Ask</th><th>Last</th><th>Image</th><th>Attributes</th></tr>";
   for (const token of tokens) {
     // console.log(++row + "\t" + token.attributeCount + "\t" + token.tokenId + "\t" + token.owner + "\t" + token.attributes.map(e => e.key.toString() + ':' + e.value.toString()).join("\t"));
