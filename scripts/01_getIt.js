@@ -33,9 +33,11 @@ async function doit() {
       var data = JSON.parse(fs.readFileSync(filename, "utf8"));
       continuation = data && data.continuation;
       for (const token of (data && data.tokens || [])) {
+        // console.log(JSON.stringify(token, null, 2));
         const tokenId = token.token.tokenId;
         const name = token.token.name;
         const owner = token.token.owner;
+        const image = token.token.image;
         console.log("tokenId: " + tokenId + ", name: " + name + ", owner: " + owner);
         const attributes = [];
         for (const attribute of token.token.attributes) {
@@ -45,6 +47,7 @@ async function doit() {
         tokens[tokenId] = {
           name,
           owner,
+          image,
           attributes,
         }
       }
